@@ -53,8 +53,8 @@ Escolha pedra, papel ou tesoura (ou digite 'sair' para encerrar o jogo): papel
 Saída
 ```bash
 Você escolheu: papel
-O computador escolheu: pedra
-Você venceu!
+O computador escolheu: papel
+Empate
 ```
 
 Exemplo 3
