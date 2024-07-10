@@ -24,11 +24,13 @@ Digite o valor para separar:
 ### Saída
 O programa deve exibir a quantidade de notas de cada denominação e moedas de 1 necessárias para compor o valor inserido.
 
-### Exemplos 1:
+### Exemplos:
+
+Exemplo 1
 
 Entrada
 ```bash
-150
+Digite o valor para separar: 150
 ```
 
 Saída
@@ -42,11 +44,11 @@ Notas de 2:   0
 Moedas de 1:  0
 ```
 
-### Exemplos 2:
+Exemplo 2
 
 Entrada
 ```bash
-1050
+Digite o valor para separar: 1050
 ```
 
 Saída
@@ -60,11 +62,11 @@ Notas de 2:   0
 Moedas de 1:  0
 ```
 
-### Exemplos 3:
+Exemplo 3
 
 Entrada
 ```bash
-188
+Digite o valor para separar: 188
 ```
 
 Saída
