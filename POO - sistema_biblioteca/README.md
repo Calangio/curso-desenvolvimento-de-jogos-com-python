@@ -6,137 +6,70 @@ Utilizando os conceitos de classes, métodos e instâncias de objeto desenvolva 
 
 Como forma de incetívo a seguir encontam-se exemplos de atributos e métodos que podem ser implementados por cada classe, as mesmas são apenas sugestões, portanto, sinta-se a vontade para modificá-las de acordo com sua visão de mundo.
 
-<style>
-#sugestoes{
-    display: flex;
-    gap: 50px;
-}
-.tabelas{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.tabelas td, th{
-    display: flex;
-    justify-content: center;
-}
-</style>
-
 <div id="sugestoes">
     <div id="atributos">
         <h3>Sugestões de atributos:</h3>
-        <div class="tabelas">
-            <table>
-                <tr>
-                </tr>
-                <tr>
-                    <th>Livro</th>
-                </tr>
-                <tr>
-                    <td>Título</td>
-                </tr>
-                <tr>
-                    <td>Autor</td>
-                </tr>
-                <tr>
-                    <td>isbn</td>
-                </tr>
-                <tr>
-                    <td>disponível</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                </tr>
-                <tr>
-                    <th>Usuário</th>
-                </tr>
-                <tr>
-                    <td>nome</td>
-                </tr>
-                <tr>
-                    <td>idade</td>
-                </tr>
-                <tr>
-                    <td>sexo</td>
-                </tr>
-                <tr>
-                    <td>livros_pegos</td>
-                </tr>
-            </table> 
-            <table>
-                <tr>
-                </tr>
-                <tr>
-                    <th>biblioteca</th>
-                </tr>
-                <tr>
-                    <td>Nome</td>
-                </tr>
-                <tr>
-                    <td>Acervo</td>
-                </tr>
-                <tr>
-                    <td>Endereço</td>
-                </tr>
-                <tr>
-                    <td>Horário</td>
-                </tr>
-            </table>
-        </div>   
+        <table>
+            <tr>
+                <th colspan="3">ATRIBUTOS</th>
+            </tr>
+            <tr>
+                <th>Livro</th>
+                <th>Usuário</th>
+                <th>Biblioteca</th>
+            </tr>
+            <tr>
+                <td>Título</td>
+                <td>nome</td>
+                <td>Nome</td>
+            </tr>
+            <tr>
+                <td>Autor</td>
+                <td>idade</td>
+                <td>Acervo</td>
+            </tr>
+            <tr>
+                <td>isbn</td>
+                <td>sexo</td>
+                <td>Endereço</td>
+            </tr>
+            <tr>
+                <td>disponível</td>
+                <td>livros_pegos</td>
+                <td>Horário</td>
+            </tr>
+        </table>
     </div>
-    <div id="métodos">
+    <div id="metodos">
         <h3>Sugestões de métodos:</h3>
-        <div class="tabelas">
-            <table>
-                <tr>
-                </tr>
-                <tr>
-                    <th>Livro</th>
-                </tr>
-                <tr>
-                    <td>__init__( )</td>
-                </tr>
-                <tr>
-                    <td>__str__( )</td>
-                </tr>
-                <tr>
-                    <td>modificar_status( )</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Usuário</th>
-                <tr>
-                    <td>pegar_livro( )</td>
-                </tr>
-                <tr>
-                    <td>devolver_livro( )</td>
-                </tr>
-                <tr>
-                    <td>listar_livros_pegos( )</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                </tr>
-                <tr>
-                    <th>biblioteca</th>
-                </tr>
-                <tr>
-                    <td>Adicionar_livro( )</td>
-                </tr>
-                <tr>
-                    <td>Remover_livro( )</td>
-                </tr>
-                <tr>
-                    <td>Listar_livros( )</td>
-                </tr>
-            </table>
-        </div>
+        <table>
+            <tr>
+                <th colspan="3">MÉTODOS</th>
+            </tr>
+            <tr>
+                <th>Livro</th>
+                <th>Usuário</th>
+                <th>Biblioteca</th>
+            </tr>
+            <tr>
+                <td>__init__()</td>
+                <td>pegar_livro()</td>
+                <td>Adicionar_livro()</td>
+            </tr>
+            <tr>
+                <td>__str__()</td>
+                <td>devolver_livro()</td>
+                <td>Remover_livro()</td>
+            </tr>
+            <tr>
+                <td>modificar_status()</td>
+                <td>listar_livros_pegos()</td>
+                <td>Listar_livros()</td>
+            </tr>
+        </table>
     </div>
 </div>
+
 
 ## Tópicos trabalhados:
 - criação de classes e atributos
