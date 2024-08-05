@@ -1,0 +1,276 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "criar_conta",
+        "importPath": "contas",
+        "description": "contas",
+        "isExtraImport": true,
+        "detail": "contas",
+        "documentation": {}
+    },
+    {
+        "label": "depositar",
+        "importPath": "contas",
+        "description": "contas",
+        "isExtraImport": true,
+        "detail": "contas",
+        "documentation": {}
+    },
+    {
+        "label": "retirar",
+        "importPath": "contas",
+        "description": "contas",
+        "isExtraImport": true,
+        "detail": "contas",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_saldo",
+        "importPath": "contas",
+        "description": "contas",
+        "isExtraImport": true,
+        "detail": "contas",
+        "documentation": {}
+    },
+    {
+        "label": "exibir_menu",
+        "importPath": "menu",
+        "description": "menu",
+        "isExtraImport": true,
+        "detail": "menu",
+        "documentation": {}
+    },
+    {
+        "label": "numero_secreto",
+        "kind": 5,
+        "importPath": "número_secreto_1.app",
+        "description": "número_secreto_1.app",
+        "peekOfCode": "numero_secreto = random.randint(1, 100)\n# Número máximo de tentativas\nmax_tentativas = 10\nprint(\"Bem-vindo ao jogo do Número Secreto!\")\nprint(f\"Você tem {max_tentativas} tentativas para adivinhar o número secreto, que está entre 1 e 100.\")\n# Loop principal do jogo\nfor tentativa in range(1, max_tentativas + 1):\n    # Entrada do palpite do jogador\n    palpite = int(input(f\"Tentativa {tentativa}: Digite seu palpite: \"))\n    # Verifica se o palpite está correto",
+        "detail": "número_secreto_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "max_tentativas",
+        "kind": 5,
+        "importPath": "número_secreto_1.app",
+        "description": "número_secreto_1.app",
+        "peekOfCode": "max_tentativas = 10\nprint(\"Bem-vindo ao jogo do Número Secreto!\")\nprint(f\"Você tem {max_tentativas} tentativas para adivinhar o número secreto, que está entre 1 e 100.\")\n# Loop principal do jogo\nfor tentativa in range(1, max_tentativas + 1):\n    # Entrada do palpite do jogador\n    palpite = int(input(f\"Tentativa {tentativa}: Digite seu palpite: \"))\n    # Verifica se o palpite está correto\n    if palpite == numero_secreto:\n        print(f\"Parabéns! Você adivinhou o número secreto {numero_secreto} em {tentativa} tentativas.\")",
+        "detail": "número_secreto_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "jogo",
+        "kind": 5,
+        "importPath": "pedra_papel_tesoura_1.app",
+        "description": "pedra_papel_tesoura_1.app",
+        "peekOfCode": "jogo = True\nwhile jogo:\n    # Entrada do jogador\n    jogador = input(\"Escolha pedra, papel ou tesoura (ou digite 'sair' para encerrar o jogo): \").lower()\n    # Condição para sair do jogo\n    if jogador == 'sair':\n        jogo = False\n        break\n    # Verificação de escolha inválida\n    if jogador != 'pedra' and jogador != 'papel' and jogador != 'tesoura':",
+        "detail": "pedra_papel_tesoura_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = int(input('Digite o valor para separar: '))\n# Inicializa variáveis para armazenar a quantidade de cada denominação\nnota100 = valor // 100\nvalor = valor % 100\nnota50 = valor // 50\nvalor = valor % 50\nnota20 = valor // 20\nvalor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "nota100",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "nota100 = valor // 100\nvalor = valor % 100\nnota50 = valor // 50\nvalor = valor % 50\nnota20 = valor // 20\nvalor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = valor % 100\nnota50 = valor // 50\nvalor = valor % 50\nnota20 = valor // 20\nvalor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "nota50",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "nota50 = valor // 50\nvalor = valor % 50\nnota20 = valor // 20\nvalor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = valor % 50\nnota20 = valor // 20\nvalor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "nota20",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "nota20 = valor // 20\nvalor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = valor % 20\nnota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "nota10",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "nota10 = valor // 10\nvalor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = valor % 10\nnota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')\nprint(f'Notas de 20:  {nota20}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "nota5",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "nota5 = valor // 5\nvalor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')\nprint(f'Notas de 20:  {nota20}')\nprint(f'Notas de 10:  {nota10}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = valor % 5\nnota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')\nprint(f'Notas de 20:  {nota20}')\nprint(f'Notas de 10:  {nota10}')\nprint(f'Notas de 5:   {nota5}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "nota2",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "nota2 = valor // 2\nvalor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')\nprint(f'Notas de 20:  {nota20}')\nprint(f'Notas de 10:  {nota10}')\nprint(f'Notas de 5:   {nota5}')\nprint(f'Notas de 2:   {nota2}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "valor = valor % 2\nmoeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')\nprint(f'Notas de 20:  {nota20}')\nprint(f'Notas de 10:  {nota10}')\nprint(f'Notas de 5:   {nota5}')\nprint(f'Notas de 2:   {nota2}')\nprint(f'Moedas de 1:  {moeda1}')",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "moeda1",
+        "kind": 5,
+        "importPath": "separar_dinheiro_1.app",
+        "description": "separar_dinheiro_1.app",
+        "peekOfCode": "moeda1 = valor\n# Exibe a quantidade de cada denominação necessária para compor o valor inserido\nprint(f'Notas de 100: {nota100}')\nprint(f'Notas de 50:  {nota50}')\nprint(f'Notas de 20:  {nota20}')\nprint(f'Notas de 10:  {nota10}')\nprint(f'Notas de 5:   {nota5}')\nprint(f'Notas de 2:   {nota2}')\nprint(f'Moedas de 1:  {moeda1}')\n# Funcionamento do Código",
+        "detail": "separar_dinheiro_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "contas",
+        "kind": 5,
+        "importPath": "sistema_bancario_1.app",
+        "description": "sistema_bancario_1.app",
+        "peekOfCode": "contas = {}\n# Loop principal do sistema bancário\nwhile True:\n    # Exibe o menu de opções\n    print(\"\\n--- Sistema Bancário ---\")\n    print(\"1. Criar nova conta\")\n    print(\"2. Depositar\")\n    print(\"3. Retirar\")\n    print(\"4. Verificar saldo\")\n    print(\"5. Sair\")",
+        "detail": "sistema_bancario_1.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "sistema_bancario_2.app",
+        "description": "sistema_bancario_2.app",
+        "peekOfCode": "def main():\n    while True:\n        exibir_menu()\n        opcao = int(input(\"Escolha uma opção: \"))\n        if opcao == 1:\n            titular = input(\"Digite o nome do titular da conta: \")\n            sucesso, mensagem = criar_conta(titular)\n            print(mensagem)\n        elif opcao == 2:\n            titular = input(\"Digite o nome do titular da conta: \")",
+        "detail": "sistema_bancario_2.app",
+        "documentation": {}
+    },
+    {
+        "label": "criar_conta",
+        "kind": 2,
+        "importPath": "sistema_bancario_2.contas",
+        "description": "sistema_bancario_2.contas",
+        "peekOfCode": "def criar_conta(titular):\n    if titular in contas:\n        return False, \"Já existe uma conta com esse titular.\"\n    else:\n        contas[titular] = 0\n        return True, f\"Conta criada para {titular}.\"\ndef depositar(titular, quantia):\n    if titular in contas:\n        if quantia > 0:\n            contas[titular] += quantia",
+        "detail": "sistema_bancario_2.contas",
+        "documentation": {}
+    },
+    {
+        "label": "depositar",
+        "kind": 2,
+        "importPath": "sistema_bancario_2.contas",
+        "description": "sistema_bancario_2.contas",
+        "peekOfCode": "def depositar(titular, quantia):\n    if titular in contas:\n        if quantia > 0:\n            contas[titular] += quantia\n            return True, f\"Depósito de R${quantia:.2f} realizado com sucesso.\"\n        else:\n            return False, \"Quantia de depósito deve ser positiva.\"\n    else:\n        return False, \"Conta não encontrada.\"\ndef retirar(titular, quantia):",
+        "detail": "sistema_bancario_2.contas",
+        "documentation": {}
+    },
+    {
+        "label": "retirar",
+        "kind": 2,
+        "importPath": "sistema_bancario_2.contas",
+        "description": "sistema_bancario_2.contas",
+        "peekOfCode": "def retirar(titular, quantia):\n    if titular in contas:\n        if 0 < quantia <= contas[titular]:\n            contas[titular] -= quantia\n            return True, f\"Saque de R${quantia:.2f} realizado com sucesso.\"\n        else:\n            return False, \"Saque inválido. Verifique o saldo e a quantia solicitada.\"\n    else:\n        return False, \"Conta não encontrada.\"\ndef verificar_saldo(titular):",
+        "detail": "sistema_bancario_2.contas",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_saldo",
+        "kind": 2,
+        "importPath": "sistema_bancario_2.contas",
+        "description": "sistema_bancario_2.contas",
+        "peekOfCode": "def verificar_saldo(titular):\n    if titular in contas:\n        return True, f\"Saldo atual: R${contas[titular]:.2f}\"\n    else:\n        return False, \"Conta não encontrada.\"",
+        "detail": "sistema_bancario_2.contas",
+        "documentation": {}
+    },
+    {
+        "label": "contas",
+        "kind": 5,
+        "importPath": "sistema_bancario_2.contas",
+        "description": "sistema_bancario_2.contas",
+        "peekOfCode": "contas = {}\ndef criar_conta(titular):\n    if titular in contas:\n        return False, \"Já existe uma conta com esse titular.\"\n    else:\n        contas[titular] = 0\n        return True, f\"Conta criada para {titular}.\"\ndef depositar(titular, quantia):\n    if titular in contas:\n        if quantia > 0:",
+        "detail": "sistema_bancario_2.contas",
+        "documentation": {}
+    },
+    {
+        "label": "exibir_menu",
+        "kind": 2,
+        "importPath": "sistema_bancario_2.menu",
+        "description": "sistema_bancario_2.menu",
+        "peekOfCode": "def exibir_menu():\n    print(\"\\n--- Sistema Bancário ---\")\n    print(\"1. Criar nova conta\")\n    print(\"2. Depositar\")\n    print(\"3. Retirar\")\n    print(\"4. Verificar saldo\")\n    print(\"5. Sair\")",
+        "detail": "sistema_bancario_2.menu",
+        "documentation": {}
+    }
+]
